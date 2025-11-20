@@ -3,9 +3,9 @@ name: Docker Image CI
 # Now this  is github triggers 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 # what kind of jobs we want to run 
 jobs:
 # name of job -- build is just name to refer we can have any name 
